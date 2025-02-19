@@ -18,3 +18,14 @@ function validatePassword(password) {
 }
 
 console.log(validatePassword("StrongP@ssw0rd123!"));
+console.log(validatePassword("Strong P@ssw0rd123!"));
+console.log(validatePassword("weakpassword"));
+console.log(validatePassword("Password123!"));
+console.log(validatePassword("tG|n{0DV?,<53u{£8q9bhB;U\"xz|)2rL6Au18eT4n1Sy0NcD4&OhNdt&qv2v%QpEDau\"M5"));
+console.log(validatePassword("lowerp@ssw0rd123!"));
+console.log(validatePassword("UPPERP@SSW0RD123!"));
+console.log(validatePassword("P@sswordNumberless!"));
+console.log(validatePassword("Password123456789"));
+console.log(validatePassword("Sh0rt!"));
+console.log(validatePassword("StrongP@@@ssw0rd123!"));
+console.log(validatePassword("12444$$%%77711!"));
